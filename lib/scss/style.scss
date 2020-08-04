@@ -32,5 +32,30 @@ $xxl: 1920px; // Larger Desktop
 }
 // End of breakpoints
 section {
+	position: relative;
 	height: 200vh;
+	.heading {
+		overflow-y: hidden;
+		h1 {
+			margin: 0;
+		}
+	}
+
+	.line {
+		position: absolute;
+		right: 65%;
+		top: 0;
+		width: 30px;
+		// max-width: 20px;
+		height: 100%;
+		// background-color: red;
+		svg {
+			background-color: linen;
+		}
+
+		.point {
+			stroke: black;
+			stroke-width: 1;
+		}
+	}
 }

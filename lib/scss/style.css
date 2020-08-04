@@ -1,4 +1,30 @@
 section {
+  position: relative;
   height: 200vh;
+}
+
+section .heading {
+  overflow-y: hidden;
+}
+
+section .heading h1 {
+  margin: 0;
+}
+
+section .line {
+  position: absolute;
+  right: 65%;
+  top: 0;
+  width: 30px;
+  height: 100%;
+}
+
+section .line svg {
+  background-color: linen;
+}
+
+section .line .point {
+  stroke: black;
+  stroke-width: 1;
 }
 /*# sourceMappingURL=style.css.map */
